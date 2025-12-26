@@ -1,0 +1,23 @@
+# Core API
+fastapi[standard]>=0.110.0
+uvicorn>=0.23.2
+python-multipart>=0.0.9
+python-dotenv>=1.0.1
+
+# Embeddings / Vector store / Parsing
+langchain-text-splitters>=0.2.0
+sentence-transformers>=2.6.1
+torch==2.3.1
+faiss-cpu==1.7.4
+PyMuPDF>=1.22.0
+python-docx>=0.8.11
+pillow>=10.0.0
+pytesseract>=0.3.10
+pandas>=2.0.0
+huggingface_hub>=0.20.0
+requests>=2.31.0
+numpy==1.26.4
+
+# LangChain + Hugging Face endpoint
+langchain-core>=0.2.27,<0.4.0
+langchain-huggingface>=0.1.0
