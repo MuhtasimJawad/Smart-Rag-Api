@@ -72,7 +72,7 @@ Windows (default)
 3) Clone and create venv
 - git clone <this-repo> && cd <repo>
 - python -m venv .venv
-- .\.venv\Scripts\Activate.ps1
+- .venv\Scripts\Activate.ps1
 - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass (if activation is blocked)
 
 4) Install dependencies
@@ -300,4 +300,5 @@ Troubleshooting
 Notes
 
 - Security: Don’t commit your .env or tokens. Use env vars or secret managers in production.
+
 
