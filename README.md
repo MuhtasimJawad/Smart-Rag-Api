@@ -35,7 +35,7 @@ flowchart TD
     B --> C["Chunk (RecursiveCharacterTextSplitters)"]
     C --> D["Embed (SentenceTransformers)"]
     D --> E["FAISS Index + metadata.jsonl"]
-    F["Query (+ optional image OCR)] --> G[Vector Search (FAISS)"]
+    F["Query (+ optional image OCR)"] --> G["Vector Search (FAISS)"]
     G --> H["Build Context Messages"]
     H --> I["LLM (ChatHuggingFace + HF Endpoint)"]
     I --> J["Answer + Context + Sources"]
@@ -300,3 +300,4 @@ Troubleshooting
 Notes
 
 - Security: Don’t commit your .env or tokens. Use env vars or secret managers in production.
+
