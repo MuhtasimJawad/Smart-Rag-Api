@@ -28,7 +28,6 @@ Architecture
   4) Generate answer using LLM (HF endpoint)
   5) Return answer + context + sources (with icons/labels)
 
-Architecture
 ```mermaid
 flowchart TD
     A[Upload/URL] --> B[Parse & Clean]
@@ -300,6 +299,7 @@ Troubleshooting
 Notes
 
 - Security: Don’t commit your .env or tokens. Use env vars or secret managers in production.
+
 
 
 
